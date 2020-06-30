@@ -1,0 +1,96 @@
+.toogle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    color: aquamarine;
+}
+
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+    background: transparent;
+}
+
+.box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: linear-gradient(to right,#0f2027,#203a43,#2c5364);
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+#btn{
+    top:0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right,#000000,#434343);
+    border-radius: 30px;
+    transition: 2s;
+}
+
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 2s;
+}
+
+.input-field{
+    width: 100%;
+    font-size: large;
+    color: aquamarine;
+    font-family: "Arial Black";
+    font-size: 20px;
+    padding: 10px 0;
+    margin: auto;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid aquamarine;
+    outline: none;
+    background: transparent;
+
+}
+.input-field::-webkit-input-placeholder{
+    color: aquamarine;
+    opacity: 15%;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    background: linear-gradient(to right,#000000,#434343);
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    color: aquamarine;
+    border-radius: 30px;
+}
+
+#loginForm{
+    left: 50px;
+}
+
+#registerForm{
+    left:450px
+}
+
+.Error{
+    color: red;
+    font-size: 20px;
+    font-family: "Arial";
+}
